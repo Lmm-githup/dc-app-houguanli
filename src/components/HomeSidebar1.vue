@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="img_container">
-      <img src="../assets/headerLogo.png">
+      <img src="../assets/dered.png">
     </div>
     <el-menu
       :default-active="onRoutes"

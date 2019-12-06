@@ -27,7 +27,7 @@
       <el-card class="box-card" v-for="(item,index) in tableData" :key="index">
         <div slot="header" class="clearfix">
           <img :src="item.coverImg" v-if="item.coverImg"/>
-            <img src="../assets/headerLogo.png" v-else/>
+            <img src="../assets/dered.png" v-else/>
         </div>
         <div class="text item">
             商品编码：{{item.productCode || '无'}}
