@@ -267,10 +267,12 @@ export default {
 /* 头部 */
 .el-header {
   line-height: 70px;
-  background-color: #433d85;
-  background-image:url('../assets/header-bg.jpg');
+  /*background-color: #433d85;*/
+  background: #fff;
+  /*background-image:url('../assets/header-bg.jpg');*/
   background-size: auto 100%;
   border-bottom: 1px solid #433d85;
+  border-top: 6px solid #fb2c25;
   color:#fff;
   padding: 0px 20px 0px 0px;
 }

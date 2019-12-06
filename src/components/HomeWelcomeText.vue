@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome">Welcome to 康佰家!</div>
+  <div class="welcome">Welcome to 德成鸿业!</div>
 </template>
 
 <style scoped>

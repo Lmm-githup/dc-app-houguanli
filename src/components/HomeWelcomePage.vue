@@ -1,7 +1,7 @@
 <template>
   <div>
     <HomeWelcomeText/>
-    <p>Copyright © 2019 版权所有康佰家</p>
+    <p>Copyright © 2019 版权所有德成鸿业</p>
   </div>
 </template>
 

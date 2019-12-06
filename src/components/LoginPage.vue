@@ -2,8 +2,8 @@
   <el-container>
     <!-- 头部 -->
     <el-header height="90px">
-      <img src="../assets/logo.jpg">
-      <div class="logo-title">康佰家导购宝后台管理</div>
+      <img src="../assets/logored.png">
+      <div class="logo-title">德成鸿业导购宝后台管理</div>
     </el-header>
     <!-- 表单 -->
     <el-main :style="mainStyle">
@@ -13,7 +13,7 @@
     <!-- 页脚 -->
     <el-footer
       height="50px"
-    >Copyright © 2019 版权所有 康佰家</el-footer>
+    >Copyright © 2019 版权所有 德成鸿业</el-footer>
   </el-container>
 </template>
 
@@ -60,23 +60,27 @@ export default {
 
 <style scoped>
 .el-header {
-  background-color: #f1f2f2;
+  /*background-color: #f1f2f2;*/
+  background: #fff;
   padding:0px;
-  background-image:url('../assets/header-bg.jpg');
-  background-size: auto 100%;
+  /*background-image:url('../assets/header-bg.jpg');*/
+  /*background-size: auto 100%;*/
   border-bottom:1px solid #fff;
+  border-top: 6px solid #fb2c25;
 }
 .logo-title{
   position:absolute;
   right:2%;
   top:32px;
-  color:#f8c301;
+  /*color:#f8c301;*/
   font-size:24px;
+  color:#3c3c3c;
 }
 .el-header img {
-  vertical-align: middle;
-  background-color: #433d85;
-  height: 89px;
+  padding: 20px;
+  /*vertical-align: middle;*/
+  /*background-color: #433d85;*/
+  /*height: 89px;*/
 }
 .el-header h1 {
   display: inline-block;

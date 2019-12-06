@@ -3,7 +3,7 @@
     <el-row type="flex" justify="space-between">
       <!-- HeaderTitle -->
       <el-col :span="-1">
-        <img class="logo" src="../assets/logo.jpg"><!--<h2 class="header_title">{{ headerTitle }}</h2>-->
+        <img class="logo" src="../assets/logored.png"><!--<h2 class="header_title">{{ headerTitle }}</h2>-->
         <!--<span class="logo-title">{{headerTitle}}</span>-->
       </el-col>
       <el-col :span="-1">
@@ -25,7 +25,7 @@
         </el-dropdown>
         <!-- 退出登录 -->
         <el-button type="text" class="logout" @click="logout">
-          <i class="iconfont icon-ai240"></i>
+          <i class="iconfont icon-ai240" style="color:black"></i>
         </el-button>
       </el-col>
     </el-row>
@@ -42,7 +42,7 @@ export default {
   props: {
     headerTitle: {
       type: String,
-      default: "康佰家导购宝后台管理"
+      default: "德成鸿业导购宝后台管理"
     },
     menuList: {
       type: Array,
@@ -87,7 +87,8 @@ export default {
 }
 .el-dropdown-link {
   cursor: pointer;
-  color: #fff;
+  /*color: #fff;*/
+  color:#3c3c3c;
   font-size: 12px;
 }
 .mark {
@@ -103,6 +104,7 @@ export default {
 }
 
 .logo{
-  height: 70px;
+  /*height: 70px;*/
+  padding: 10px;
 }
 </style>
